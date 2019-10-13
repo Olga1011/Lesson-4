@@ -1,0 +1,42 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0; 
+}
+
+.first-element {
+  position: relative;
+  left: 50px;
+  width: 500px;
+  height: 250px;
+  border: 2px solid orange;
+  border-radius: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+.second-element {
+  border: 2px solid blue;
+  border-radius: 20px;
+  width: 600px;
+  height: 250px;
+}
+
+.parent-relative {
+  position: relative;
+  border: 2px solid green;
+  width: 1000px;
+  height: 200px;
+  font-size: 14px;
+  }
+
+.child-absolute {
+  position: absolute;
+  border: 2px solid red;
+  top: 10px;
+  right: 10px;
+  width: 400px;
+  height: 150px;
+  }
